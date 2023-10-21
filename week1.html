@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhartha - Portfolio</title>
+<style>
+    /* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: #333;
+    color:black;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>   
+</head>
+<body style="background-color: aqua; color:black; font: size 20px; font-family:Georgia, 'Times New Roman', Times, serif ">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Portfolio</h1>
+        <img style="height: 200px; width: 200px;" src="img.jpg" alt="">
+        <p style="font-size: 20px;">I'm Siddhartha a Software developer very enthusiastic in developing in new software and technologies. I'm an undergrad at CBIT,pursuing Computer Science And Engineering  </p>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif; font: size 30px; font-weight:bold">Siddhartha Dasari <br>
+            BE CSE Student <br>
+            CBIT , Gandipet , Hyderabad. <br>
+            Mail : sixxxxxxxxx01@gmail.com <br>
+            Mobile Number : 949xxxxxxx <br>
+            Linkedin : shorturl.at/mqrP5 <br>
+        </p>
+    </section>
+
+
+    <section id="Projects">
+        <h1>Projects</h1>
+        <div class="portfolio-item">
+            <h2>CBG (Customer Billing Gadget)</h2>
+            <p>The Customer Billing Gadget is a project designed to help and automate the
+                billing process in the cafes and shopping malls. Once the customer confirms the order,
+                the gadget generates a bill that includes items purchased and the total bill amount. The
+                project is developed using Python library tkinter.
+            </p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>CBIT LEARNING MANAGEMENT SYSTEM</h2>
+            <p>The LMS is a project developed to manage and track online education and
+                marking system. The main features of the project are student registration, assessment
+                and grading. I worked on student registration and login page for the admin(faculty) to
+                post assessments and grading the assignments.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+        <h1>My Skills</h1>
+        <p> Programming Languages : 
+            <ol style="font-size: 20px;" type="i">
+                <li>C</li>
+                <li>Python</li>
+                <li>Java Fundamentals</li>
+                <li>Data Structures & Algorithms</li>
+            </ol>
+            
+        </p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
